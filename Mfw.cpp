@@ -33,8 +33,6 @@ class Listener : public EventHandler<GoldEvent>, public EventHandler<SosEvent>
 
 int main()
 {
-	Keyboard board;
-	KeyListener l;
 	Listener a;
 
 	EventBus.fireEvent(GoldEvent(20));
